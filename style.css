@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(S__10960910.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+header ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 33px;
+}
+header ul li{
+    display: inline;
+}
+header ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border:1px solid #fff;
+    transition:0.5s ease ;
+}
+header ul li a:hover{
+     background-color: #fff;
+     color:#000;
+}
+.logo img{
+    float: left;
+    width: 200px;
+    padding: 15px 20px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    z-index: 999;
+    position: fixed;
+    justify-content:space-around;
+    background-color:#0005;
+}
+.title{
+    position: absolute;
+    top:44%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Noto Serif TC', serif;
+}
+.title h1{
+    color:#fff;
+    font-size: 70px;
+}
+.button{
+    position: absolute;
+    top:53%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color:#fff;
+    text-decoration: none;
+    background-color:#0003;
+}
+.btn:hover{
+    background-color: #fff;
+    color:#000;
+}
+section{
+    background-color:rgb(255, 255, 255);
+    height: 1150px;
+    position: relative;
+}
+.sec-camp01 h2{
+    font-family: 'Noto Serif TC', serif;
+    color:rgb(49, 49, 49);
+    position: absolute;
+    top: 230px;
+    left:830px;
+    z-index: 30;
+}
+.sec-camp01 p{
+    font-family: 'Noto Serif TC', serif;
+    color: rgb(110, 110, 110);
+    position: absolute;
+    top: 310px;
+    left:830px;
+    z-index: 30;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.camp01 img{
+    width: 700px;
+    height: auto;
+    position: absolute;
+    top: 130px;
+    left: 130px;
+    cursor: pointer;
+    transition:0.5s ease ;
+}
+.camp01 img:hover{
+    width: 700px;
+    height: auto;
+    position: absolute;
+    top: 115px;
+    left: 130px;
+}
+.sec-camp02 h2{
+    font-family: 'Noto Serif TC', serif;
+    color:rgb(49, 49, 49);
+    position: absolute;
+    top: 700px;
+    left:200px;
+    z-index: 30;
+}
+.sec-camp02 p{
+    font-family: 'Noto Serif TC', serif;
+    color: rgb(110, 110, 110);
+    position: absolute;
+    top: 780px;
+    left:200px;
+    z-index: 30;
+}
+.camp02 img{
+    width: 800px;
+    height: auto;
+    position: absolute;
+    top: 600px;
+    left: 750px;
+    cursor: pointer;
+    transition:0.5s ease ;
+}
+.camp02 img:hover{
+    position: absolute;
+    top: 585px;
+    left: 750px;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    color:white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.social-menu{
+    margin-top: 5px;
+}
+.social-menu li{
+    display: inline;
+    list-style: none;
+    margin-top: 100px;
+}
+.social-menu a{
+    padding: 5px;
+    color:white;
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: none;   
+}
+.social-menu a:hover{
+    color:rgb(201, 201, 201);
+    text-decoration:underline;
+}
